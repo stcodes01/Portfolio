@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aff6ceb630.js" crossorigin="anonymous"></script>
+</head>
+<!--Main body-->
+<body>
+    <div id="header">
+    <div id="container" >
+        <nav id="navbar" >
+            <img src="imgs/arthak.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#portfolio'>Projects</a></li>
+                <li><a href='#services'>Services</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+<div class="header-text">
+    <p>Software Engineer</p>
+    <hr style = " width:300px; background-image: linear-gradient(to right, #f8b203, #f8b203, #08080800);">
+    <h1>Hey, I'm <span>Sarthak Tiwari</span> from <span>India</span></h1>
+    <div class="social-icons-header">
+        <a target="_blank" rel="noopener noreferrer" class="icon1" href="https://www.facebook.com/sarthak.tiwari.980967"><i class="fab fa-facebook"></i></a>
+        <a target="_blank" rel="noopener noreferrer" class="icon2" href="https://x.com/sart4321"><i class="fa-brands fa-x-twitter"></i></a>
+        <a target="_blank" rel="noopener noreferrer" class="icon3" href="https://www.instagram.com/sarthak_tiwari03/?igsh=dGlraGFnajdzdnJw"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" rel="noopener noreferrer" class="icon4" href="https://www.linkedin.com/in/sarthak-tiwari-31501723a/"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" rel="noopener noreferrer" class="icon5" href="https://www.youtube.com/@sarthaktiwari2003"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+</div>
+
+    </div>
+    </div>
+<!---------------------------------------------------------ABOUT PAGE------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="imgs/IMG-20221213-WA0000.jpg">
+                </div>               
+
+                <div class="about-col2">
+                    <h1 class="sub-title">About me</h1>
+                    <hr style=" background-image: linear-gradient(to right, #f8b203, #f8b203, #080808);">
+
+                    <p> Myself Sarthak with a strong background in Computer Science. 
+                        I specialize in using multiple programming languages like Python, C/C++ and web technologies to create high-quality projects that meets client's expectations.
+                        My work is driven by excellence and integrity. Connect with me on <a href="#contact">Social Media</a> 
+                        Let's create something amazing together!                      
+                        Feel free to contact..</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+
+                    </div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Programming Languages</span><br> C/C++, Python, JavaScript, React.JS, Familiar with Java</li>  
+        <li><span>DataBase</span><br>Oracle MySQL, DBMS</li>
+        <li><span>UI/UX</span><br>Figma, Adobe</li>
+        <li><span>Web Development</span><br>HTML, JavaScript, CSS(SASS), React.Js framework, Bootstrap, Python</li>
+        <li><span>Others</span><br>MS Office, Analytical skills, Communication skills, Business Intelligence, Hands on Machine learning.</li>
+
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li><span>2020 - 2024</span><br>B.Tech CSE from Maharaja Surajmal Institute of Technology, New Delhi</li>
+        <li><span>2020</span><br>XII<sup>th</sup> with Science Major from Sarvodaya Bal Vidyalaya Government School, Tilak Nagar</li>
+        <li><span>2018</span><br>X<sup>th</sup> from Sarvodaya Bal Vidyalaya Government School, Chand Nagar</li>
+    </ul>
+</div>
+<div class="tab-contents" id="Experience">
+    <ul>
+        <li><span>09/2023 - 10/2023</span><br>Web Developer at Omkar Traders, New Delhi, India<br><a style="font-weight: 500; color:#f8b203; margin-left: 500px;" href="https://drive.google.com/file/d/1aeGEwMQC9chTLuyCibiOU_FFF4OATkJo/view?usp=drive_link">Certificate link</a></li>
+        <li><span>06/2022 - 07/2022</span><br>Front-end Web Developer at Exposys Data Labs, Karnataka, India <br><a style="font-weight: 500;    margin-left: 500px; color:#f8b203;" href="https://drive.google.com/file/d/11Nm4YXIWSXYLI1qwkUNAMcqleTS9-R4b/view?pli=1">Certificate link</a></li>
+        <li><span>01/2024 - 03/2024</span><br>Business Developer Executive Trainee at Maxtra Technologies, Uttar Pradesh, India</li>
+    </ul>
+</div>
+
+     </div>
+
+                <div class="about-col1"></div>
+           
+            </div>
+        </div>
+    </div>
+<!----------------------------------------------------------------SERVICES------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <hr style="background-image: linear-gradient(to right, #f8b203, #f8b203, #080808);">
+        <div class="service-list">
+            <div>
+                <a style="padding-top: 0;margin-top: 0;" href="#contact">
+                <i style="font-size: 50px; padding-top:0 ;" class="fa-solid fa-laptop-code"></i>
+                <h2>UI/UX<br>Designing</h2> 
+                <p>Crafting Intuitive and Engaging User Experiences<br></p>
+                <a style="font-size: 15px;" href="#contact"><i class="fas fa-paper-plane"></i>Get in Touch</a>
+            </a></div>
+            <div>
+                <a style="padding-top: 0;margin-top: 0;" href="#contact">
+                <i style="font-size: 50px; padding-top:0 ;" class="fa-solid fa-code"></i>
+                <h2>Website Development</h2>
+                <p>Building Robust, Responsive, and User-Friendly Websites Tailored to Your Needs</p>
+                <a style="font-size: 15px;" href="#contact"><i class="fas fa-paper-plane"></i>Get in Touch</a>
+            </a>
+            </div>
+            <div>
+                <a style="padding-top: 0;margin-top: 0;" href="#contact">
+                <i style="font-size: 50px; padding-top:0 ;" class="fa-regular fa-file-code"></i>
+                <h2>React.Js Development</h2>
+                <p>I specialize in building fast, interactive, and maintainable user interfaces using React.js.</p>
+                <a style="font-size: 15px;" href="#contact"><i class="fas fa-paper-plane"></i>Get in Touch</a>
+            </a>  </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------------------------PORTFOLIO------------------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <hr style="background-image: linear-gradient(to right, #f8b203, #f8b203, #080808);">
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/Screenshot (44)(1)(1).png" alt="">
+                <div class="layer">
+                    <h3>SoulStack</h3>
+                    <p> A dynamic E-commerce platform with a user-friendly interface using React.js
+                         and responsive design with Sass </p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/stcodes01/E-COMMERCE"><i class="fa-solid fa-link"></i></a> 
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="imgs/Screenshot (73)(1).png" alt="">
+                <div class="layer">
+                    <h3>SignAsto</h3>
+                    <p>A Machine Learning project that detects hand signs & display the alphabet based on sign language.</p>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/stcodes01/SignAsto"><i class="fa-solid fa-link"></i></a> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/Screenshot (18).png" alt="">
+        
+            <div class="layer">
+                <h3>LearningExpo</h3>
+                <p> An E-learning web application using HTML/CSS/JS and relevant frameworks to build the front-end components.</p >
+                <a target="_blank" rel="noopener noreferrer" href="https://stcodes01.github.io/LearningExpo/index.html"><i class="fa-solid fa-link"></i></a> 
+            </div>
+            </div>
+        </div>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/stcodes01?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!----------------------------------------------CONTACT------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <hr style=" background-image: linear-gradient(to right, #f8b203, #f8b203, #080808);">
+                <p><i class="fas fa-paper-plane"></i>stcodes0101@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt "></i>+91 8700642650</p>
+                <div class="social-icons">
+                    <a target="_blank" rel="noopener noreferrer" class="icon1" href="https://www.facebook.com/sarthak.tiwari.980967"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" class="icon2" href="https://x.com/sart4321"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" class="icon3" href="https://www.instagram.com/sarthak_tiwari03/?igsh=dGlraGFnajdzdnJw"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" class="icon4" href="https://www.linkedin.com/in/sarthak-tiwari-31501723a/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" class="icon5" href="https://www.youtube.com/@sarthaktiwari2003"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="imgs/RESUME_SART.pdf" download class="btn btn2"> CV/Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright & Developed by Sarthak Tiwari</p>
+    </div>
+</div>
+
+
+
+<!---------------------------------------------------JAVASCRIPT------------------------------------------------------>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx1EaOUDa6lzVag307KaQaIkzIKrf6On4guHBiFV75Yl5ALPAEvx-qgPo1pZayMJD8K/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+
+
+
+</html>
